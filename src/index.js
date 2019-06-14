@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/app';
 
-
-ReactDOM.render(<h1 style={{textAlign:'center'}}>Re-store</h1>, document.getElementById('root'));
+ReactDOM.render(<App/>,document.getElementById('root'));
