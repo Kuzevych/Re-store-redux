@@ -1,4 +1,4 @@
-import { BookstoreServiceProvider, BookstoreServiceConsumer } from './bookstore-service-contect';
+import { BookstoreServiceProvider, BookstoreServiceConsumer } from './bookstore-service-context';
 
 export {
     BookstoreServiceProvider,
