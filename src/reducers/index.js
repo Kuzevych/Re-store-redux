@@ -1,17 +1,6 @@
 
 const initialState = {
-  books: [
-      {
-          id: 1,
-          title: 'Production Microservises',
-          author: 'Susan J. Fowler'
-      },
-      {
-          id: 2,
-          title: 'Release It',
-          author: 'Michael T. Nygard'
-      }
-  ]
+  books: []
 };
 
 const reducer = (state = initialState,action) => {

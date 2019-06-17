@@ -6,6 +6,4 @@ const booksLoaded = (newBooks) => {
     }
 };
 
-export default {
-    booksLoaded
-};
+export default booksLoaded;
