@@ -11,8 +11,6 @@ class BookList extends Component {
         // 1. recieve data
         const {bookstoreService, booksLoaded} = this.props;
         const data = bookstoreService.getBooks();
-
-
         // 2. dispatch store
         console.log(booksLoaded(data));
 
@@ -21,7 +19,7 @@ class BookList extends Component {
     render() {
         const {books} = this.props;
         return (
-            <ul>
+            <ul className='book-list'>
                 {
                     books.map((book) => {
                         return (
