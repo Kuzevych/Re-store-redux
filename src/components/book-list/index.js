@@ -1,3 +1,3 @@
-import BookListContainer from './book-list-container';
+import BookList from './book-list';
 
-export default BookListContainer;
+export default BookList;
